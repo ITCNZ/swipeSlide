@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>单张图无限滚动</title>
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/slide.css">
+</head>
+<body>
+
+<div class="slide">
+    <div class="slide-box">
+        <ul class="slide-ul">
+            <li><a href="" title="1111"><img src="http://www.heibaipig.com/demo/images/test/1.jpg"></a></li>
+            <li><a href="" title="2222"><img src="http://0.thumb.pc6.com/up/2016-5/20165199297.jpg"></a></li>
+            <li><a href="" title="33333"><img src="http://0.thumb.pc6.com/up/2016-4/201642814841.jpg"></a></li>
+            <li><a href="" title="44444"><img src="http://m.pc6.com/public/img/20151202.jpg"></a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="slide1">
+    <div class="slide-box">
+        <ul class="slide-ul">
+            <li><a href="" title="1111"><img src="http://www.heibaipig.com/demo/images/test/1.jpg"></a></li>
+            <li><a href="" title="2222"><img src="http://0.thumb.pc6.com/up/2016-5/20165199297.jpg"></a></li>
+            <li><a href="" title="33333"><img src="http://0.thumb.pc6.com/up/2016-4/201642814841.jpg"></a></li>
+            <li><a href="" title="444"><img src="http://0.thumb.pc6.com/up/2016-4/201642814841.jpg"></a></li>
+            <li><a href="" title="5555"><img src="http://m.pc6.com/public/img/20151202.jpg"></a></li>
+        </ul>
+    </div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/slide.min.js"></script>
+<script>
+$(function(){
+    $(".slide").swipeSlide({index:3});
+	
+	$(".slide1").swipeSlide({
+	    auto:false,
+		isTit:false,
+		index:4
+	});
+})
+
+</script>
+</body>
+</html>

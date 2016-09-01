@@ -1,0 +1,10 @@
+.slide,.slide1{clear:both;position:relative;z-index:0;width:100%;margin:0 auto 0.3em auto;overflow:hidden;}
+.slide-box{ width:100%;height:100%; margin:0 auto;position:relative; overflow:hidden}
+.slide-ul{position:absolute;z-index:1;left:0;width:10000px;}
+.slide-ul li{float:left;display:block;}
+.slide-ul li img{display:block;width:100%;height:100%;}
+.title-box{ width:90%; padding:0 5%; z-index:999; height:30px; line-height:30px; color:#fff; font-size:14px; background:rgba(0,0,0,.5); position:absolute; left:0; bottom:0;}
+.circle{ float:right;}
+.title{ float:left; display:inline-block;}
+.circle em{ display:inline-block; width:5px; height:5px; margin-left:5px; background-color:#fff; border-radius:50%;}
+.circle .active{ background-color:#f00}
