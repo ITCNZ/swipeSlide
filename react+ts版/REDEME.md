@@ -1,9 +1,4 @@
----
-category: 组件
-type: Data Display
-title: Swipe
-subtitle: 轮播
----
+# react+ts版本
 
 组件提供轮播功能，支持手势滑动，需要在移动端环境下可以查看效果
 

@@ -1,2 +1,2 @@
-# swipeSlide-
-swipeSlide移动端全屏滑动插件
+# swipe 原生js版本
+swipe移动端全屏滑动插件
